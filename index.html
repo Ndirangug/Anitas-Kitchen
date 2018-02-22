@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Anita's Kitchen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.css">
+</head>
+<body>
+ 
+    <div class="container-fluid banner">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Raini">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Anita's Kitchen</a>
+                </div>
+                <div class="collapse navbar-collapse" id="Raini">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Contacts</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="header">
+            <img src="images/logoBig.png" alt="">
+            <h1>We Provide the Best Food <br>At The <strong>Right Price</strong></h1>
+        </div>
+    </div>
+    <!-- vertical tabs -->
+    <div class="container-fluid" id="modals">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="tab">
+                    <button class="tablinks btnHappy active">Happy Hour</button>
+                    <button class="tablinks btnParty">Party Time</button>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div id="happyHour" class="tabcontent">
+                    <!-- modal triggers -->
+                    <div class="row">
+                        <div data-toggle="modal" data-target="#breakfast" class="col-md-4 breakfast">
+                            <h4>Breakfast</h4>
+                        </div>
+                        <div  data-toggle="modal" data-target="#lunch" class="col-md-4 lunch">
+                            <h4>Lunch</h4>
+                        </div>
+                        <div  data-toggle="modal" data-target="#dinner" class="col-md-4 dinner">
+                            <h4>Dinner</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="partyTime" class="tabcontent">
+                    <div class="row">
+                        <div  data-toggle="modal" data-target="#part1" class="col-md-4 breakfast">
+                            <h4>Non alcholhol Party</h4>
+                        </div>
+                        <div  data-toggle="modal" data-target="#party2" class="col-md-4 lunch">
+                            <h4>outside catering</h4>
+                        </div>
+                        <div  data-toggle="modal" data-target="#party3" class="col-md-4 dinner">
+                            <h4>big party</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- the modals -->
+                <!-- breakfast -->
+                <div id="breakfast" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                
+                        <!-- Modal content-->
+                        <div class="modal-content breakfast">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3>The best breakfast deals in town.</h3>
+                                <p>Now you can enjoy all your favouite meals for as low as 500 shillings.In addition you get 50% voucher on every two purchases.The voucher can be redeemed at the next purchase.</p>
+                                
+                            </div>
+                            
+                        </div>
+                
+                    </div>
+                </div>
+                <!-- lunch -->
+                <div id="lunch" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                
+                        <!-- Modal content-->
+                        <div class="modal-content lunch">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3>The best lunch deals in town.</h3>
+                                <p>Now you can enjoy all your favouite meals for as low as 500 shillings.In addition you get 50% voucher on
+                                    every two purchases.The voucher can be redeemed at the next purchase.</p>
+                
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+                <!-- dinner -->
+                <div id="dinner" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                
+                        <!-- Modal content-->
+                        <div class="modal-content dinner">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3>The best dinner deals in town.</h3>
+                                <p>Now you can enjoy all your favouite meals for as low as 500 shillings.In addition you get 50% voucher on
+                                    every two purchases.The voucher can be redeemed at the next purchase.</p>
+                
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+                <!-- part1 -->
+                <div id="part1" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                
+                        <!-- Modal content-->
+                        <div class="modal-content breakfast">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3>The best Non-alchohol party deals in town.</h3>
+                                <p>Now you can enjoy all your favouite meals for as low as 500 shillings.In addition you get 50% voucher on
+                                    every two purchases.The voucher can be redeemed at the next purchase.</p>
+                
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+                <!-- part2 -->
+                <div id="party2" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                
+                        <!-- Modal content-->
+                        <div class="modal-content lunch">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3>The best outdoor catering deals in town.</h3>
+                                <p>Now you can enjoy all your favouite meals for as low as 500 shillings.In addition you get 50% voucher on
+                                    every two purchases.The voucher can be redeemed at the next purchase.</p>
+                
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+
+                <!-- party3 -->
+                <div id="party3" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                
+                        <!-- Modal content-->
+                        <div class="modal-content dinner">
+                            <div class="modal-body text-center">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3>The best big party deals in town.</h3>
+                                <p>Now you can enjoy all your favouite meals for as low as 500 shillings.In addition you get 50% voucher on
+                                    every two purchases.The voucher can be redeemed at the next purchase.</p>
+                
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+       
+        
+    </div>
+
+    <!-- gallery -->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 box">
+                <div class="img-thumbnail">
+                <div class="row">
+                    <div class="col-md-12 fastfood">
+                        <img src="images/fastFood1.jpg" alt="breakfast">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 fastfood">
+                        <img src="images/fastFood2.jpg" alt="breakfast">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6 box">
+                <h2>Fast Food</h2>
+                <h4>you'll love our delicious fast food</h4>
+                <p>If you have always been disapointed by icy semifreddo and other machine free frozen desserts, We feel your pain. But trust me-even after sitting in the freezer for 24hrs, our offer is smooth, creamy,soft and deliciously good, not an icicle in sight! <br/> Delicious as a dessert on its own, it would also be brilliant in all those places that our  ricotta tartlets and sugar snap peas with hot chocolate pudding,apple crumble, bread and butter pudding,yum! The only thing is that it is quit strongly honey flavoured, which is great in most cases, but a little overpowering as an accompaniment to something like a passion fruit souffle. Enjoy our MEALS! </p>
+                <a href="#" class="btn btn-default">VIEW GALLERY <span class="glyphicon glyphicon-arrow-right"></span></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 box text-right">
+                <h2>Drinks</h2>
+                <h4>We also produce delicious drinks</h4>
+                <p>To all teetotalers who love other kinds of drinks, Anita's Kitchen is your second home. Talk of smoothies,blended juice,black and white coffee, highland tea, capuccino,Roman Espresso,Mursik and sparkling water! All are served with crazy accompaniment of couscus with cherry tomato sauce or any delightful cabonara!We only serve drinks that you can drink and drive, fly or even teleport home! </p>
+                <a href="#" class="btn btn-default">VIEW GALLERY
+                    <span class="glyphicon glyphicon-arrow-right"></span>
+                </a>
+            </div>
+            <div class="col-md-6 box">
+                <div class="img-thumbnail">
+                    <div class="row">
+                        <div class="col-md-6"><img src="images/drink1.jpg" alt=""></div>
+                        <div class="col-md-6"><img src="images/drink2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- horinzontal tabs menu -->
+    <div class="container-fluid" id="showcase">
+        <div id="tabs">
+            <ul class="nav nav-tabs nav-justified">
+                <li class="active">
+                    <a data-toggle="pill" href="#home">Fast Food</a>
+                </li>
+                <li>
+                    <a data-toggle="pill" href="#menu1">Drinks</a>
+                </li>
+                <li>
+                    <a data-toggle="pill" href="#menu2">Chicken</a>
+                </li>
+                <li>
+                    <a data-toggle="pill" href="#menu2">Rice</a>
+                </li>
+            </ul>
+            
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <div class="row">
+                        <div class="col-md-4 food">
+                            <img src="images/chickenBurger.jpg" alt="">
+                            <h5>Chicken Burger</h5>
+                        </div>
+                        <div class="col-md-4 food">
+                            <img src="images/beefBurger.jpg" alt="">
+                            <h5>Beef Burger</h5>
+                        </div>
+                        <div class="col-md-4 food">
+                            <img src="images/chickenPizza.jpg" alt="">
+                            <h5>Chicken Pizza</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="menu1" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-md-4 food">
+                            <img src="images/beefBurger.jpg" alt="">
+                            <h5>Chicken Burger</h5>
+                        </div>
+                        <div class="col-md-4 food">
+                            <img src="images/chickenBurger.jpg" alt="">
+                            <h5>Beef Burger</h5>
+                        </div>
+                        <div class="col-md-4 food">
+                            <img src="images/chickenPizza.jpg" alt="">
+                            <h5>Chicken Pizza</h5>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu2" class="tab-pane fade">
+                    <div class="row">
+                        <div class="col-md-4 food">
+                            <img src="images/chickenPizza.jpg" alt="">
+                            <h5>Chicken Burger</h5>
+                        </div>
+                        <div class="col-md-4 food">
+                            <img src="images/beefBurger.jpg" alt="">
+                            <h5>Beef Burger</h5>
+                        </div>
+                        <div class="col-md-4 food">
+                            <img src="images/chickenBurger.jpg" alt="">
+                            <h5>Chicken Pizza</h5>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu3" class="tab-pane fade">
+                <div class="row">
+                    <div class="col-md-4 food">
+                        <img src="images/beefBurger.jpg" alt="">
+                        <h5>Chicken Burger</h5>
+                    </div>
+                    <div class="col-md-4 food">
+                        <img src="images/chickenPizza.jpg" alt="">
+                        <h5>Beef Burger</h5>
+                    </div>
+                    <div class="col-md-4 food">
+                        <img src="images/chickenBurger.jpg" alt="">
+                        <h5>Chicken Pizza</h5>
+                    </div>
+                </div>
+                </div>
+                
+            </div>`
+        </div>
+
+    </div>
+
+    <!-- testimonial -->
+    <div class="container-fluid" id="customer">
+        <div class="row">
+            <div class="col-md-7">
+                <h3>Our Happy Customers</h3>
+                <!-- slides begin here -->
+                <div class="slideshow-container">
+                
+                    <div class="testimonials">
+                        <q>Really awesome service.Really tasty food.Really fast service</q>
+                        <p class="author">- John Keats</p>
+                    </div>
+                
+                    <div class="testimonials">
+                        <q>These guys are so professional and will always leave you yearning for another visit.</q>
+                        <p class="author">- Ernest Hemingway</p>
+                    </div>
+                
+                    <div class="testimonials">
+                        <q>These guys are so expensive. It cost me an arm and a leg to eat lunch. Great food though.</q>
+                        <p class="author">- Thomas A. Edison</p>
+                    </div>
+                
+                    
+                    
+                
+                </div>
+                
+                <div class="dot-container">
+                    <span class="prev glyphicon glyphicon-chevron-left" onclick="plusSlides(-1)"></span>
+                    <span class="dot" onclick="currentSlide(1)"><img class="img-circle" src="images/p1.png" alt="customer 1"> </span>
+                    <span class="dot" onclick="currentSlide(2)"><img class="img-circle" src="images/p2.png" alt=""></span>
+                    <span class="dot" onclick="currentSlide(3)"><img class="img-circle" src="images/p3.png" alt=""></span>
+                    <span class="next glyphicon glyphicon-chevron-right" onclick="plusSlides(1)"></span>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h3>About Menu</h3>
+                <p>With a team of seven members, we provide the most elaborate menu for any desire that you posses, cuisines from all over the globe,with very good suggestions for even the most 'choosy' person. No one can miss his/her favourite meal here.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- subscribe -->
+    <div class="container-fluid" id="subscribe">
+        <h2>Get our daily food items delivered to your mail</h2>
+        <form action="" role="form" class="form-inline">
+            <input type="email" class="btn btn-transparent" placeholder="your email" class="form-input">
+            <input type="submit" value="subscribe" class="btn btn-default">            
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid text-center" id="footer">
+        <h1>
+            <span><img src="images/logo_white.png" alt=""></span>
+            MENU
+        </h1>
+        <h2>That's what we are!</h2>
+        <h1>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest"></i>
+        </h1>
+        <p>2018 Menu Restaurant</p>
+
+    </div>
+
+
+    <script src="bootstrap/js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script>
+        // modal boxes vertical tabs
+        $(document).ready(function() {
+            //set happy hour to visible by default
+            $("#happyHour").css("display", "block");
+            
+
+            //set party time to visible on click and hide happy hour
+            $(".btnParty").click(function () {
+                $(this).addClass("active");
+                $("#partyTime").css("display", "block");
+                $("#happyHour").css("display", "none");
+                $(".btnHappy").removeClass("active");
+            });
+
+            //set happy hour to visible and hide party time
+            $(".btnHappy").click(function () {
+                $(this).addClass("active");
+                $("#happyHour").css("display", "block");
+                $("#partyTime").css("display", "none");
+                $(".btnParty").removeClass("active");
+            });
+
+        });
+
+        //testimonials slide show
+        var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("testimonials");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+
+        
+    </script>
+</body>
+</html>
